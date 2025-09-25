@@ -1,0 +1,111 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    display: flex;             /* ativa o Flexbox */
+    justify-content: flex-start; 
+    align-items: center;       /* alinha verticalmente */             
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container2 {
+   display: flex;             
+    justify-content: flex-end;
+    align-items: center;                      
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container3 {
+    display: flex;             
+    justify-content: center; 
+    align-items: center;                    
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container4 {
+   display: flex;             
+    justify-content: space-between; /* distribui espaço entre os itens (o primeiro e o último ficam nas bordas) */
+    align-items: center;      
+    width: 100%;               
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container5 {
+     display: flex;             
+    justify-content: space-around; /* o espaço entre os itens é distribuído igualmente*/
+    align-items: center;      
+    width: 100%;               
+    padding: 5px;
+    box-sizing: border-box;
+}
+.container6 {
+    display: flex;             
+    justify-content: space-evenly; /* espaçamento entre qualquer par de itens (incluindo os que estão nas bordas do contêiner) é idêntico. */
+    align-items: center;      
+    width: 100%;               
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+/* ********************************************************/
+/*
+.container-exercicioB{
+   flex-direction: column-reverse; era p inverter - nao funfa 
+}
+*/   
+
+/*forma mais facil - apenas invertendo no html*/
+.container-desafio {
+    display: flex;             
+    justify-content: flex-start; 
+    align-items: center;                 
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* com css - ele gruda na direitaa
+
+.container-desafio {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: flex-start;  
+}*/
