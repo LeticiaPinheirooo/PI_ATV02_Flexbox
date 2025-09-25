@@ -93,7 +93,7 @@ h1 {
 }
 */   
 
-/*forma mais facil - apenas invertendo no html*/
+/*apenas invertendo no html*/
 .container-desafio {
     display: flex;             
     justify-content: flex-start; 
@@ -103,9 +103,9 @@ h1 {
 }
 
 /* com css - ele gruda na direitaa
-
 .container-desafio {
     display: flex;
     flex-direction: row-reverse; 
     justify-content: flex-start;  
 }*/
+
